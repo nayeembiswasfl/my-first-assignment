@@ -37,7 +37,7 @@
     /* display: flex;
     align-items: center; */
     text-align: center;
-    background:url(./assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     /* max-width:100% ; */
@@ -51,6 +51,10 @@
     border: none;
     border-radius: 5px;
     padding: 8px 12px;
+    color: #469165;
+    display: inline-block;
+    align-items: center;
+    gap: 5px;
 }
 .hero .head-one{
     color: white;
@@ -163,11 +167,12 @@
 .the-solution {
     display: flex;
     margin-top: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 240px;
+    margin-right: 240px;
     gap: 60px;
     justify-content: center;
     align-content: center;
+
     /* border: 1px solid red; */
     
 }
@@ -286,7 +291,7 @@
     font-weight:500;
     line-height:28px;
     margin-bottom: 16px;
-    margin-right: 3.2px;
+    margin-right: 3.px;
 }
 
 .social-icons {
