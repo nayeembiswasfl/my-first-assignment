@@ -82,6 +82,9 @@
 
 }
 .hero .hero-buttons .btn-i {
+    display: inline-flex;
+    align-items: center;
+
   color: #FFFFFF;
   border: none;
   padding: 12px 16px;
