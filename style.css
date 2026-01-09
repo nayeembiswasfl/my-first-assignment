@@ -168,7 +168,7 @@
     gap: 60px;
     justify-content: center;
     align-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 
@@ -178,7 +178,7 @@
     width: 700px;
     height: 396px;
     gap: 40px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .the-solution .text h6 {
@@ -228,7 +228,7 @@
     border-radius: 12px;
     width: 1600;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* .challenge .challenge-content{
     margin-left: 240px;
@@ -257,4 +257,76 @@
   gap:10px;
   border-radius: 4px;
 }
+.site-footer {
+  background: linear-gradient(180deg, #071f34, #061a2c);
+  padding: 60px 80px 30px;
+  color: #ffffff;
+}
 
+/* TOP AREA */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.footer-brand {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 42px;          /* matches screenshot scale */
+  width: auto;
+}
+
+/* SOCIAL */
+.footer-social {
+  text-align: right;
+}
+
+.social-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.social-icons a:hover {
+  background-color: #2fa36b;
+  border-color: #2fa36b;
+}
+
+/* DIVIDER */
+.footer-divider {
+  margin: 40px 0 20px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.8;
+}
